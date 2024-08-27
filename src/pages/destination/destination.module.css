@@ -1,0 +1,149 @@
+.url {
+    background-image: url("/destination/background-destination-desktop.jpg");
+}
+
+.content__title {
+    margin: var(--spacing-500) 0;
+}
+
+.content__wrap {
+    width: 100%;
+    height: 734px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__side {
+    width: 540px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content__side__img {
+    width: 480px;
+    height: 480px;
+    object-fit: contain;
+}
+
+.content__side__text {
+    width: 445px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content__tab {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    padding-bottom: var(--spacing-500);
+}
+
+
+.content__data__wrap {
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+
+.content__data {
+    margin-right: var(--spacing-600);
+}
+
+.content__data__title {
+    margin-bottom: var(--spacing-150);
+    color: var(--blue-300)
+}
+
+
+
+.content__line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray-500);
+    margin: var(--spacing-500) 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .url {
+        background-image: url("/destination/background-destination-tablet.jpg");
+    }
+
+    .content__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__tab {
+        justify-content: center;
+        padding-bottom: var(--spacing-300);
+    }
+
+
+    .content__side {
+        display: flex;
+        align-items: center;
+    }
+
+    .content__side:nth-of-type(1) {
+        height: fit-content;
+        margin: var(--spacing-300) 0;
+    }
+
+    .content__side:nth-of-type(2) {
+
+        justify-content: space-evenly;
+        height: 100%;
+        padding: var(--spacing-300);
+    }
+
+    .content__side__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content__side__text {
+        align-items: center;
+        justify-content: center;
+        padding-top: var(--spacing-400);
+    }
+
+    .content__data__wrap {
+        justify-content: space-evenly;
+    }
+
+    .content__line {
+        margin: var(--spacing-300) 0;
+    }
+
+    .content__data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .url {
+        background-image: url("/destination/background-destination-mobile.jpg");
+    }
+
+    .content__side__img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content__data__wrap {
+        flex-direction: column;
+        height: 145px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

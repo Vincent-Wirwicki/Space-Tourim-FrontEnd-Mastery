@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+:root {
+  /* COLORS ----------------------- */
+  --blue-900: rgb(11, 13, 23);
+  --blue-300: rgb(208, 214, 249);
+  --white-0: rgb(255, 255, 255);
+  --gray-500: rgb(151, 151, 151);
+  /* SPACINGS ---------------------- */
+  --spacing-1600: 128px;
+  --spacing-1200: 96px;
+  --spacing-1000: 80px;
+  --spacing-800: 64px;
+  --spacing-600: 48px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+  --spacing-25: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white-0);
+  overflow: hidden;
+}
+
+/* WRAPPER ---------------------------------------*/
+.app__wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (max-width: 768px) {
+  .page__wrap {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* BACKGROUND IMAGE ------------------------------ */
+.img__bg {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* TEXT PRESET START ---------------------------------- */
+/* DEFAULT ------------------------------------------- */
+.text-preset-1 {
+  font-family: "Bellefair", serif;
+  font-size: 9rem;
+  margin: var(--spacing-300) 0;
+  text-transform: uppercase;
+}
+
+.text-preset-2 {
+  font-family: "Bellefair", serif;
+  font-size: 6.25rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.text-preset-3 {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.text-preset-4 {
+  font-family: "Bellefair", serif;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.text-preset-5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.text-preset-6 {
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.text-preset-7 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.text-preset-8 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white-0);
+  margin: 0;
+}
+
+.text-preset-9 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+/* Tablet ------------------------------------ */
+@media screen and (max-width: 768px) {
+  .text-preset-2 {
+    font-size: 80px;
+  }
+
+  .text-preset-3 {
+    font-size: 40px;
+  }
+
+  .text-preset-4 {
+    font-size: 24px;
+  }
+
+  .text-preset-5 {
+    font-size: 20px;
+  }
+
+  .text-preset-9 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Mobile -------------------------------------- */
+@media screen and (max-width: 425px) {
+  .text-preset-1 {
+    font-size: 80px;
+  }
+
+  .text-preset-2 {
+    font-size: 56px;
+  }
+
+  .text-preset-3 {
+    font-size: 24px;
+  }
+
+  .text-preset-4 {
+    font-size: 18px;
+  }
+
+
+
+  .text-preset-6 {
+    font-size: 16px;
+  }
+
+  .text-preset-8 {
+    font-size: 14px;
+  }
+
+  .text-preset-9 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* TEXT PRESET END------------------------------------- */
+/* --------------------------------------------------- */

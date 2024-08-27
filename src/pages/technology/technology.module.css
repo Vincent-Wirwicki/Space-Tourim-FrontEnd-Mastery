@@ -1,0 +1,113 @@
+.url {
+    background-image: url("/technology/background-technology-desktop.jpg");
+}
+
+.content__wrap__side {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 1275px;
+    height: 735px;
+}
+
+.content_side {
+    width: 635px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__side__text {
+    width: 635px;
+    height: 305px;
+    padding: 0 var(--spacing-400);
+}
+
+.content__side__text__title {
+    padding: var(--spacing-400) 0;
+}
+
+.content__side__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 305px;
+}
+
+.content__side__wrap__img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content__side__img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .url {
+        background-image: url("/technology/background-technology-tablet.jpg");
+    }
+
+    .content__wrap__side {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .content_side {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .content__side__wrap__img {
+        width: 100vw;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content__side__img {
+        object-fit: cover;
+    }
+
+    .content__side__nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        padding-bottom: var(--spacing-500);
+    }
+
+    .content__side__text {
+        text-align: center;
+        padding: 0 var(--spacing-400);
+        height: fit-content;
+    }
+
+    .content__side__text__title {
+        padding: var(--spacing-200) 0;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .url {
+        background-image: url("/technology/background-technology-mobile.jpg");
+    }
+
+    /* .content_side {
+        align-items: start;
+    } */
+
+    .content__side__nav {
+        align-items: start;
+        padding-bottom: var(--spacing-500);
+    }
+}

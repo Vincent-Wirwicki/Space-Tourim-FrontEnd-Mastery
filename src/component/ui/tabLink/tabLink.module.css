@@ -1,0 +1,36 @@
+.wrap__link {
+    position: relative;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-right: var(--spacing-400);
+}
+
+.tab__Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-thickness: 3px;
+}
+
+.tab__link__underline {
+    background-color: var(--white-0);
+    bottom: 1px;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+.tab__link__underline__active {
+    opacity: 1;
+    transition: opacity 300ms ease;
+}
+
+.wrap__link:hover>.tab__link__underline {
+    opacity: 0.5;
+    transition: opacity 300ms ease;
+}
