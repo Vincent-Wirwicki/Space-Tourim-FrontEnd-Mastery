@@ -21,7 +21,7 @@ const Destination = ({ data }: { data: DestinationType[] }) => {
         <SubTitle num="01" text="pick your destination" />
         <div className={styles.content__wrap}>
           <Side>
-            <Img url={data[0].images.webp} />
+            <Img url={display[0].images.png} />
           </Side>
           <Side>
             <div className={`${styles.content__tab} text-preset-8`}>

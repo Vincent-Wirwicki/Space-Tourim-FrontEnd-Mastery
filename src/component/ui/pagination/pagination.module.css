@@ -35,6 +35,6 @@
     .large {
         width: 56px;
         height: 56px;
-        margin-left: var(--spacing-300);
+        margin: 0 var(--spacing-300);
     }
 }

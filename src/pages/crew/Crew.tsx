@@ -42,14 +42,14 @@ const Crew = ({ data }: { data: CrewMemberType[] }) => {
 
 export default Crew;
 
-
-
 const Side = ({ children }: { children: ReactNode }) => (
   <div className={styles.content__side}>{children}</div>
 );
 
 const Role = ({ role }: { role: string }) => (
-  <h3 className="text-preset-4">{role}</h3>
+  <h3 className="text-preset-4" style={{ opacity: 0.25 }}>
+    {role}
+  </h3>
 );
 
 const Name = ({ name }: { name: string }) => (

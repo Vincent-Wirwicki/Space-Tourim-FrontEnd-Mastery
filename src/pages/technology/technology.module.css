@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     width: 1275px;
     height: 735px;
 }
@@ -68,10 +67,8 @@
 
     .content__side__wrap__img {
         width: 100vw;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /* height: 350px; */
+        padding-top: var(--spacing-300);
     }
 
     .content__side__img {
@@ -102,12 +99,21 @@
         background-image: url("/technology/background-technology-mobile.jpg");
     }
 
-    /* .content_side {
-        align-items: start;
-    } */
+    .content__wrap__side {
+        width: 400px;
+        align-items: center;
+    }
+
+    .content__side {
+        margin: var(--spacing-300);
+    }
 
     .content__side__nav {
-        align-items: start;
-        padding-bottom: var(--spacing-500);
+        padding: var(--spacing-300) 0;
     }
+
+    .content__side__text {
+        max-width: 60%;
+    }
+
 }

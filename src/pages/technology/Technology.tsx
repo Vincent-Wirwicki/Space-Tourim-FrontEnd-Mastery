@@ -58,8 +58,10 @@ const Img = ({ url }: { url: string }) => (
 
 const Text = ({ name, desc }: { name: string; desc: string }) => (
   <>
-    <h3 className="text-preset-4">TERMINOLOGY...</h3>
-    <h1 className={` ${styles.content__side__text__title} text-preset-3`}>
+    <h3 className="text-preset-4" style={{ opacity: 0.25 }}>
+      TERMINOLOGY...
+    </h3>
+    <h1 className={`${styles.content__side__text__title} text-preset-3`}>
       {name}
     </h1>
     <LeadText text={desc} />

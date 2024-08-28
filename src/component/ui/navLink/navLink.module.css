@@ -52,5 +52,8 @@
     .wrap__link {
         width: 100%;
         justify-content: start;
+        align-items: start;
+        height: 20px;
+        margin: var(--spacing-400) 0;
     }
 }

@@ -1,0 +1,13 @@
+.nav__mobile__menu {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    /* padding: var(--spacing-400); */
+    background-color: rgba(var(--spacing-300), 0.5);
+    padding-top: var(--spacing-1200);
+}

@@ -1,0 +1,15 @@
+.subTitle {
+    text-align: start;
+    width: 100%;
+}
+
+.subTitle__number {
+    opacity: 0.25;
+    padding-right: var(--spacing-300);
+}
+
+@media screen and (max-width: 425px) {
+    .subTitle {
+        text-align: center;
+    }
+}

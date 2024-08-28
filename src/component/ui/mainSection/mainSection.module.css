@@ -1,5 +1,5 @@
 .content {
-    width: 60%;
+    width: 80%;
     height: 792px;
     padding: var(--spacing-600) 0;
     display: flex;
@@ -9,17 +9,13 @@
 @media screen and (max-width: 768px) {
     .content {
         width: 90%;
-        height: 792px;
         padding: var(--spacing-400) 0;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .content {
         width: 688px;
-        height: 792px;
         padding: var(--spacing-300);
-        justify-content: center;
-        align-items: center;
     }
 }

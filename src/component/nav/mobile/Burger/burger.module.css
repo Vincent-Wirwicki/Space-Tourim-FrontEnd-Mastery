@@ -1,0 +1,6 @@
+.nav__burger {
+    position: absolute;
+    z-index: 3;
+    right: var(--spacing-400);
+    top: var(--spacing-400);
+}
