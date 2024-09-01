@@ -32,8 +32,6 @@
 
 html,
 body {
-  font-weight: 400;
-  font-style: normal;
   color: var(--white-0);
   overflow: hidden;
 }
@@ -80,6 +78,8 @@ body {
   font-size: 9rem;
   margin: var(--spacing-300) 0;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-2 {
@@ -87,18 +87,24 @@ body {
   font-size: 6.25rem;
   margin: 0;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-3 {
   font-family: "Bellefair", serif;
   font-size: 56px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-4 {
   font-family: "Bellefair", serif;
   font-size: 34px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-5 {
@@ -106,12 +112,16 @@ body {
   font-size: 28px;
   letter-spacing: 4px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-6 {
   font-family: "Bellefair", serif;
   font-size: 28px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-7 {
@@ -119,6 +129,8 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-8 {
@@ -129,12 +141,16 @@ body {
   text-decoration: none;
   color: var(--white-0);
   margin: 0;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-preset-9 {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   line-height: 180%;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Tablet ------------------------------------ */
